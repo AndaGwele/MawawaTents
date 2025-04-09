@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mawawa Tents - Quality Equipment Rentals</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1><i style = "color:red;">Mawawa</i> <i style = "color:black;">Tents</i></h1>
+                    <p>we got you covered</p>
+                </div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Quality Equipment Rentals for Every Occasion</h1>
+                <p>From camping gear to event furniture and appliances - we've got you covered!</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Browse Products</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Us?</h2>
+                <p>We make renting easy, affordable, and reliable</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck-fast"></i>
+                    </div>
+                    <h3>Fast Delivery</h3>
+                    <p>Same-day delivery available for local orders placed before noon</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Quality Guaranteed</h3>
+                    <p>All equipment thoroughly inspected and sanitized before delivery</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Best Prices</h3>
+                    <p>Competitive rates with special discounts for long-term rentals</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Our customer service team is always ready to assist you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Rental Products</h2>
+                <p>High-quality equipment for all your needs</p>
+            </div>
+            <div class="category-tabs">
+                <button class="tab-btn active" data-category="all">All</button>
+                <button class="tab-btn" data-category="camping">Mobile Fridge</button>
+                <button class="tab-btn" data-category="furniture">Toilets</button>
+                <button class="tab-btn" data-category="appliances">Tables</button>
+                <button class="tab-btn" data-category="events">Chairs</button>
+                <button class="tab-btn" data-category="events">Gas Stoves</button>
+                <button class="tab-btn" data-category="events">Welding</button>
+            </div>
+            <div class="products-grid">
+                <div class="product-card" data-category="camping">
+                    <div class="product-img">
+                        <img src="https://placehold.co/400x300?text=Mobile+Fridges" alt="Camping Tent">
+                    </div>
+                    <div class="product-info">
+                        <h3>Portable Mobile Fridges</h3>
+                            <p>Keep your food and drinks chilled anywhere—ideal for camping, road trips, and events</p>
+                                <div class="product-price">
+                            <span>From R30/day</span>
+                            <a href="#contact" class="btn btn-sm">Rent Now</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-card" data-category="furniture">
+                    <div class="product-img">
+                        <img src="https://placehold.co/400x300?text=Portable+Toilets" alt="Folding Chairs">
+                    </div>
+                    <div class="product-info">
+                        <h3>Portable Rental Toilets</h3>
+                        <p>Clean and convenient sanitation for outdoor events, construction sites, and more</p>
+                        <div class="product-price">
+                            <span>From R35/day per unit</span>
+                            <a href="#contact" class="btn btn-sm">Rent Now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="product-card" data-category="appliances">
+                    <div class="product-img">
+                        <img src="https://placehold.co/400x300?text=Renatl+Tables" alt="Portable Fridge">
+                    </div>
+                    <div class="product-info">
+                        <h3>Rental Tables</h3>
+                        <p>Sturdy and spacious tables perfect for events, catering, and outdoor setups</p>
+                        <div class="product-price">
+                            <span>From R10/day per table</span>
+                            <a href="#contact" class="btn btn-sm">Rent Now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="product-card" data-category="events">
+                    <div class="product-img">
+                        <img src="https://placehold.co/400x300?text=Event+Chairs" alt="Party Tent">
+                    </div>
+                    <div class="product-info">
+                        <h3>Event Chairs</h3>
+                        <p>Stylish and comfortable seating for weddings, parties, and corporate functions</p>
+                        <div class="product-price">
+                            <span>From R2/day per chair</span>
+                            <a href="#contact" class="btn btn-sm">Rent Now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="product-card" data-category="camping">
+                    <div class="product-img">
+                        <img src="https://placehold.co/400x300?text=Portable+Gas+Stoves" alt="Sleeping Bags">
+                    </div>
+                    <div class="product-info">
+                        <h3>Portable Gas Stoves</h3>
+                        <p>Reliable cooking equipment for camping, picnics, and outdoor events</p>
+                        <div class="product-price">
+                            <span>From R15/day</span>
+                            <a href="#contact" class="btn btn-sm">Rent Now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="product-card" data-category="furniture">
+                    <div class="product-img">
+                        <img src="https://placehold.co/400x300?text=Welding+Services" alt="Tables">
+                    </div>
+                    <div class="product-info">
+                        <h3>Welding Services</h3>
+                        <p>Professional welding for custom setups, repairs, and structural support</p>
+                        <div class="product-price">
+                            <span>From R50/hour</span>
+                            <a href="#contact" class="btn btn-sm">Book Now</a>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="#contact" class="btn btn-primary">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Renting with us is simple and hassle-free</p>
+            </div>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Browse & Select</h3>
+                    <p>Choose from our wide range of quality rental equipment</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Book & Pay</h3>
+                    <p>Reserve your items and make a secure payment</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Delivery</h3>
+                    <p>We deliver to your location at your preferred time</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">
+                        <i class="fas fa-undo"></i>
+                    </div>
+                    <h3>Return</h3>
+                    <p>We pick up when you're done - it's that simple!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p>Don't just take our word for it</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Mawawa Tents saved my sons initiation ceremony! The tent was spacious, clean, and exactly as described. Delivery was on time and the staff was incredibly helpful."</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://placehold.co/60x60?text=J" alt="John D.">
+                            </div>
+                            <div class="author-info">
+                                <h4>John D.</h4>
+                                <p>Mother</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"We rented tables, chairs, and tents for our daughter's graduation party. Everything was delivered on time and picked up promptly. The quality was excellent and the prices were very reasonable."</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://placehold.co/60x60?text=S" alt="Sarah M.">
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah M.</h4>
+                                <p>Event Planner</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"As a small business owner, I appreciate the reliability and professionalism of Mawawa Tents. Their portable refrigerators have been a lifesaver for our outdoor events and markets."</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://placehold.co/60x60?text=R" alt="Robert T.">
+                            </div>
+                            <div class="author-info">
+                                <h4>Robert T.</h4>
+                                <p>Food Truck Owner</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn" id="prev-testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="next-btn" id="next-testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="section-header">
+                        <h2>Contact Us</h2>
+                        <p>Have questions or ready to rent? Get in touch!</p>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Our Location</h3>
+                                <p>123 Rental Avenue, Outdoor City, OC 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Phone Number</h3>
+                                <p>(555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Email Address</h3>
+                                <p>info@outdoorrentals.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 8am - 6pm<br>Saturday: 9am - 4pm<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="rental-inquiry-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rental-type">What would you like to rent?</label>
+                            <select id="rental-type" name="rental-type" required>
+                                <option value="">Select an option</option>
+                                <option value="camping">Camping Equipment</option>
+                                <option value="furniture">Furniture</option>
+                                <option value="appliances">Appliances</option>
+                                <option value="events">Event Equipment</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="dates">Rental Dates</label>
+                            <div class="date-inputs">
+                                <input type="date" id="start-date" name="start-date" required>
+                                <span>to</span>
+                                <input type="date" id="end-date" name="end-date" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Information</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>OutdoorRentals</h2>
+                    <p>Quality Equipment Rentals for Every Occasion</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Rental Categories</h3>
+                        <ul>
+                            <li><a href="#products">Tents</a></li>
+                            <li><a href="#products">Mobile Fridge</a></li>
+                            <li><a href="#products">Chairs</a></li>
+                            <li><a href="#products">Toilets</a></li>
+                            <li><a href="#products">Gas Stoves</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Customer Support</h3>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Rental Terms</a></li>
+                            <li><a href="#">Delivery Information</a></li>
+                            <li><a href="#">Payment Options</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 OutdoorRentals. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
